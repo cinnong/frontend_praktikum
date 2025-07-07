@@ -6,9 +6,8 @@ import { Dashboard } from "./pages/Dashboard";
 import { MahasiswaPage } from "./pages/MahasiswaPage";
 import { TambahMahasiswaPage } from "./pages/TambahMahasiswaPage";
 import { EditMahasiswaPage } from "./pages/EditMahasiswaPage";
-import { LoginPage } from "./pages/Loginpage";
+import { LoginPage } from "./pages/LoginPage";
 import { RegisterPage } from "./pages/RegisterPage";
-
 
 function App() {
   return (

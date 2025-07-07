@@ -25,7 +25,7 @@ export function LoginPage() {
       localStorage.setItem("token", data.token);
       Swal.fire("Berhasil", "Login berhasil!", "success");
       navigate("/dashboard"); // redirect ke halaman utama
-    } catch (err) {
+    } catch {
       Swal.fire("Gagal", "Username atau password salah", "error");
     }
   };
